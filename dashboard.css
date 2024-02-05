@@ -22,9 +22,7 @@
     background-color: #ffffff;
 }
 
-
 /* ... other styles ... */
-
 .navbar {
     position: relative;
 }
@@ -128,16 +126,20 @@
       align-items: center; 
       width: 17.5rem !important; 
       /* height: 8.rem; */
-      margin-bottom: 4em;
-     
+      margin-bottom: 2.5rem;
 } 
 
-/* .card-prod .product-card {
-    border: 2px solid #B6B6B6;
-    width: inherit; 
-    display: inline-flex;
-    
-} */
+.product-card .rating {
+    margin-top: 1rem;
+    font-family: inter;
+    font-weight: 300;
+    color: #828282;
+
+} 
+.product-card .bi-star-fill{
+    color: var(--theme-color);
+}
+
 
 .card-prod .product-card .card-body {
     padding: 0.5rem 0.5rem;
@@ -145,7 +147,6 @@
     background-color: #ffffff;
     border: none;
 }
-
 
 .card-prod .product-card img{
     width: 6.6rem;
