@@ -1,0 +1,144 @@
+
+:root{
+    --theme-color: #2F80ED;
+     --secondary-color: #010f1c;
+    --default-font-family: 'Inter', sans-serif;
+    /*--quaternary-color: #f3f3f3;
+    --quinary-color: #f3f3f3;
+    --senary-color: #f3f3f3;
+    --septenary-color: #f3f3f3;
+    --octonary-color: #f3f3f3;
+    --nonary-color: #f3f3f3;
+    --denary-color: #f3f3f3; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.hero{
+    color: var(--secondary-color);
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero .hero-left {
+    margin-top: 5em;
+}
+
+.hero .hero-img {
+   
+    height: 52.5rem;
+}
+
+.hero .blue {
+    color: var(--theme-color);
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+}
+
+.hero .small{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero .hero-right {
+    margin-top: 2.2em;
+}
+
+.serve-cont {
+  margin-left: 8em  !important;
+}
+
+.serve-cont h4 {
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 5.5rem;
+}
+
+.serve-cont img{
+    @media screen and (max-width: 768px){
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+    margin-left: 2rem;   
+    height: 12.5rem;
+    width: 15rem;
+}
+
+.serve-cont .w-heading {
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 2.1em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.serve-cont .w-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.our-menu .right-menu .previous{
+    width: 4.2em;
+    height: 4.2em;
+    border-radius: 50%; 
+    background-color: #dfe0e0; 
+    border: 0px solid #dfe0e0;
+    color: black;
+    font-weight: 300;
+}
+
+.our-menu .right-menu .next{
+    width: 4.2em;
+    height: 4.2em;
+    border-radius: 50%;
+    background-color: var(--theme-color);
+    border: 0px solid var(--theme-color);
+    color: #fff;
+    font-weight: 500;
+}
+
+.previous
+.scroll-controller {
+    width: 4px;
+    background-color: #dfe0e0;
+    height: 30vh;
+}
+
+.footer {
+    background-color: var(--theme-color);
+    color: #fff;
+}
+
+.footer .footer-container {
+    padding: 6em auto;
+    padding-top: 2em;
+}
+
+.footer .footer-container .footer-right i {
+    padding: 0.7em;
+} 
+
+
+
+
+

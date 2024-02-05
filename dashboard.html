@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard - Ecommerce</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/79f0d7ec41.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="body-wrapper">
+     <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand text-center" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <div class="d-flex justify-content-between w-100">
+                <div class="d-none d-lg-block">
+                    <!-- Placeholder for other navbar content -->
+                </div>
+                <form class="d-flex align-items-center w-30">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                        <span class="input-group-text"><i class="bi bi-filter"></i></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-12 bg-light sidebar">
+                    <!-- Sidebar content -->
+                  
+                    <ul>
+                        <li class="first-sidebar-img"> <img src="./images/thai-hot-pot.png"> </li>
+                        <hr>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-home.png"> <p> Home</p> </li>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-gps.png"> <p> Track </p></li>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-clock.png"> <p> Orders </p> </li>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-messages-2-875.png"> <p> Chat </p> </li>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-notification-mhd.png"> <p> Alert </p>  </li>
+                        <li class="sidebar-items"> <img src="./images/vuesax-bulk-setting-2-7RM.png"> <p> Settings </p> </li>
+                        <li> <img src="./images/ellipse-5-bg.png" class="img-fluid rounded-4" > </li>
+                        <li> <img src="./images/signout.png"> </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-12 main-content float-start">
+                    <!-- Main content -->
+                    <div class="col-12 categories">
+                      <div class="row"> 
+                    
+                          <ul>
+                            <li> <img src="images/fire.png"> Trending</li>
+                            <li> <img src="images/soup.png"> Soups and Stews</li>
+                            <li> <img src="images/rice-bowl.png"> Rice Dishes</li>
+                            <li> <img src="images/meat.png"> Grilled and Roasted Foods</li>
+                            <li> <img src="images/coffee-beans.png"> Raw Food </li>
+                        </ul>
+                      
+                      </div>
+                       
+                    </div> <!--End Categories-->
+
+                    <div class="col-sm-12 col-md-10 col-lg-12 products d-flex">
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-3 col-lg-3 rounded-4 card-prod ">
+                                <div class="card product-card">
+                                    <div class="col-11">
+                                        <img src="images/frame-38813436.png"
+                                            class="card-img-top img-fluid rounded-5" alt="...">
+                                        <span class="rating float-end"> <i class="bi bi-star"></i>
+                                            &nbsp;4.8(32) </span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Product Title</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn float-start">Add  <i
+                                                class="bi bi-plus"></i> </button>
+                                        <span class="price float-end"> ₦ 100,000 </span>
+                                        <p class="product-weight float-end"> /500kg </p>
+                                    </div><!--End Card Footer-->
+                                </div>
+                            </div><!--End Col-4-->
+
+                            <div class="col-sm-12 col-md-3 col-lg-3 rounded-4 card-prod ">
+                                <div class="card product-card">
+                                    <div class="col-11">
+                                        <img src="images/frame-38813436.png"
+                                            class="card-img-top img-fluid rounded-5" alt="...">
+                                        <span class="rating float-end"> <i class="bi bi-star"></i>
+                                            &nbsp;4.8(32) </span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Product Title</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn float-start">Add <i
+                                                class="bi bi-plus"></i> </button>
+                                        <span class="price float-end"> ₦ 100,000 </span>
+                                        <p class="product-weight float-end"> /500kg </p>
+                                    </div><!--End Card Footer-->
+                                </div>
+                            </div><!--End Col-4-->
+
+                            <div class="col-sm-12 col-md-3 col-lg-3 rounded-4 card-prod ">
+                                <div class="card product-card">
+                                    <div class="col-11">
+                                        <img src="images/frame-38813436.png"
+                                            class="card-img-top img-fluid rounded-5" alt="...">
+                                        <span class="rating float-end"> <i class="bi bi-star"></i>
+                                            &nbsp;4.8(32) </span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Product Title</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn float-start">Add <i
+                                                class="bi bi-plus"></i> </button>
+                                        <span class="price float-end"> ₦ 100,000 </span>
+                                        <p class="product-weight float-end"> /500kg </p>
+                                    </div><!--End Card Footer-->
+                                </div>
+                            </div><!--End Col-4-->
+
+                            <div class="col-sm-12 col-md-3 col-lg-3 rounded-4 card-prod ">
+                                <div class="card product-card">
+                                    <div class="col-11">
+                                        <img src="images/frame-38813436.png"
+                                            class="card-img-top img-fluid rounded-5" alt="...">
+                                        <span class="rating float-end"> <i class="bi bi-star"></i>
+                                            &nbsp;4.8(32) </span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Product Title</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn float-start">Add <i
+                                                class="bi bi-plus"></i> </button>
+                                        <span class="price float-end"> ₦ 100,000 </span>
+                                        <p class="product-weight float-end"> /500kg </p>
+                                    </div><!--End Card Footer-->
+                                </div>
+                            </div><!--End Col-4-->
+
+                        </div><!--End Row-->
+                    </div> <!-- End Products col-12 -->
+
+
+                </div> <!-- End Main Content -->
+
+                <div class="col-lg-3 col-md-3 col-sm-12 bg-light cart">
+                    <!-- Cart content -->
+                    <div class="cart-heading float-start">
+                        <h2>MY CART  <span class="badge bg-primary">4</span> </h2> 
+                    </div>
+
+                    <div class="col-12 cart-area">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="cart-area-image">
+                                  <img src="images/frame-38813436.png" class="img-fluid">
+                              </div><!--End Cart Area Image-->
+                          </div><!--End col-2-->
+                          <div class="col-8 cart-area-details">
+                              <p class="prod-desc"> Ofada stew </p>
+                              <p> <span class="text-brown"> Note: Make it spicy </span> </p>
+                              <p> <span class="prod-price"> #100,000 </span> <span class="text-brown"> /500kg </span></p>
+                              <div class="quantity-container  mt-4">
+                                  <i class="bi bi-dash quantity-icon"></i> &nbsp;
+                                  <span class="quantity">1</span> &nbsp;
+                                  <i class="bi bi-plus quantity-icon"></i>
+                                  <span class="float-end card-edit"> <img  src="images/vuesax-bulk-edit-2.png"> </span>
+                              </div><!--End Quantity Container-->
+                          </div>
+                          <div class="col-1 empty-div">
+
+                          </div>
+                          <div class="col-2 cart-area-actions clearfix">
+
+                          </div>
+
+                          <p> <hr> </p>
+                      </div> <!--End Row-->
+
+                    </div> <!--End Cart Area-->
+
+                    <div class="col-12 cart-area">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="cart-area-image">
+                                  <img src="images/frame-38813436.png" class="img-fluid">
+                              </div><!--End Cart Area Image-->
+                          </div><!--End col-2-->
+                          <div class="col-8 cart-area-details">
+                              <p class="prod-desc"> Ofada stew </p>
+                              <p> <span class="text-brown"> Note: Make it spicy </span> </p>
+                              <p> <span class="prod-price"> #100,000 </span> <span class="text-brown"> /500kg </span></p>
+                              <div class="quantity-container  mt-4">
+                                  <i class="bi bi-dash quantity-icon"></i> &nbsp;
+                                  <span class="quantity">1</span> &nbsp;
+                                  <i class="bi bi-plus quantity-icon"></i>
+                                  <span class="float-end card-edit"> <img  src="images/vuesax-bulk-edit-2.png"> </span>
+                              </div><!--End Quantity Container-->
+                          </div>
+                          <div class="col-2 empty-div">
+
+                          </div>
+                          <div class="col-2 cart-area-actions clearfix">
+
+                          </div>
+
+                          <p> <hr> </p>
+                      </div> <!--End Row-->
+
+                    </div> <!--End Cart Area-->
+
+
+                    <div class="col-12 cart-area">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="cart-area-image">
+                                  <img src="images/frame-38813436.png" class="img-fluid">
+                              </div><!--End Cart Area Image-->
+                          </div><!--End col-2-->
+                          <div class="col-8 cart-area-details">
+                              <p class="prod-desc"> Ofada stew </p>
+                              <p> <span class="text-brown"> Note: Make it spicy </span> </p>
+                              <p> <span class="prod-price"> #100,000 </span> <span class="text-brown"> /500kg </span></p>
+                              <div class="quantity-container  mt-4">
+                                  <i class="bi bi-dash quantity-icon"></i> &nbsp;
+                                  <span class="quantity">1</span> &nbsp;
+                                  <i class="bi bi-plus quantity-icon"></i>
+                                  <span class="float-end card-edit"> <img  src="images/vuesax-bulk-edit-2.png"> </span>
+                              </div><!--End Quantity Container-->
+                          </div>
+                          <div class="col-2 empty-div">
+
+                          </div>
+                          <div class="col-2 cart-area-actions clearfix">
+
+                          </div>
+
+                          <p> <hr> </p>
+                      </div> <!--End Row-->
+
+                    </div> <!--End Cart Area-->
+
+                 
+                    <div class="col-sm-12  col-md-10 offset-md-1  col-lg-10 offset-lg-1 checkout-area">
+                        <div class="row">
+                            <div class="col-md-12 cart-div">
+                            
+                                <div>
+                                    <p> Items <span class="float-end"> ₦ 120,000</span> </p>
+                                    <p> Tax(12%) <span class="float-end"> ₦ 12,000 </span> </p> 
+                                    <hr>
+                                    <p> Total: <span class="float-end"> ₦3,000 </span> </p>
+                                </div>
+
+                                <div class="d-grid gap-2 mb-4 pay-btn">
+                                  <button class="btn btn-primary buy-now-btn ">  Make Payments </button>
+                              </div>
+                            </div>
+                        </div>
+                            
+                        
+                    </div>
+
+                </div> <!-- End Cart -->
+
+                <div class="col-lg-1 col-md-1 col-sm-12 bg-light empty-space">
+                    <!-- Empty space -->
+                </div>
+            </div> <!-- End Row -->
+        </div> <!-- End Container-fluid -->
+
+    </div> <!--End Body wrapper -->
+
+    <!-- Bootstrap JS and other scripts go here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-rHyoN1iRsVXV4nD7IfC2QxKUVwfsd5xP56vNr7E9tlH+6zDz4y4eUnCD/JQOp6ea"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
