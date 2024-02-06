@@ -3,7 +3,6 @@
     --theme-color: #2F80ED;
      --secondary-color: #010f1c;
     --default-font-family: 'Inter', sans-serif;
-   
 }
 
 *{
@@ -69,20 +68,16 @@
     margin-left: 0.6rem;
 }
 
-
 .sidebar ul li { 
     list-style-type: none;
-   
 }
 
  .sidebar-items{ 
     margin-bottom: 2.8rem;
-   
 }
 
 .sidebar ul li img{
     width: 1.5rem;
-   
 }
 
  .main-content .categories {
@@ -105,8 +100,15 @@
    width: 1.8rem;
    height: 1.6rem;
    padding-right: 0.3rem;
-   
 }
+
+ .main-content .categories  button {
+   /* margin-left: 61rem; 
+   margin-bottom: 2rem; */
+
+   position: relative;
+   left: 50;
+} 
 
 .products .card-prod {
     margin-top:  4rem;
@@ -118,7 +120,7 @@
      padding: 0 2em;   */
       /* width: 15rem; */    
       align-items: center; 
-      width: 17.5rem !important; 
+      width: 19rem !important; 
       /* height: 8.rem; */
       margin-bottom: 2.5rem;
 } 
@@ -128,21 +130,16 @@
     font-family: inter;
     font-weight: 300;
     color: #828282;
+    padding-right: 3em;
 } 
 
 .product-card .bi-star-fill{
     color: var(--theme-color);
 }
 
- 
-
-.edit-img img {
-    width:  20px; /* Adjust the width as needed */
-    height: auto; /* Keep the aspect ratio */
-}
-
 .card-prod .product-card .card-body {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    width: 100%;
     margin-top: -3.2rem;
     background-color: #ffffff;
     border: none;
@@ -154,6 +151,14 @@
     position: relative;
     bottom: 4em;
     left: 1.5em;
+}
+ 
+.card-prod .product-card .edit-img  {
+    width:  14px; /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
+    position: relative;
+    left: 7.9rem;
+    bottom:2.8rem;
 }
 
 .card-body .card-title {
