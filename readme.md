@@ -1,6 +1,6 @@
 This is the frontend for eatgood
 
-`Homepage: INDEX.HTML``
+`Homepage: INDEX.HTML`
 
 
 `FOR USERS DASHBOARD`
@@ -13,4 +13,5 @@ index page: Dashboard.html
 
 
 `FOR ADMIN`
-coming soon!
+
+`Add New Dish: add_new_dish.html`
