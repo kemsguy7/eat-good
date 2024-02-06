@@ -128,16 +128,19 @@
     font-family: inter;
     font-weight: 300;
     color: #828282;
-
 } 
+
 .product-card .bi-star-fill{
     color: var(--theme-color);
 }
 
- .edit-img img{
-    width: 0.5rem;
-    height: 2rem;
+ 
+
+.edit-img img {
+    width:  20px; /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
 }
+
 .card-prod .product-card .card-body {
     padding: 0.5rem 0.5rem;
     margin-top: -3.2rem;
@@ -198,9 +201,7 @@
     font-family: inter;
     font-weight: 300;
     color: #828282;
-
 }
-
 
  .add-new-dish-btn {
     background-color: #2F80ED;
