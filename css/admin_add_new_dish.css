@@ -130,7 +130,7 @@
     font-family: inter;
     font-weight: 300;
     color: #828282;
-    padding-right: 3em;
+    padding-right: 2.5git em;
 } 
 
 .product-card .bi-star-fill{
@@ -140,7 +140,7 @@
 .card-prod .product-card .card-body {
     padding: 0.5rem 0.8rem;
     width: 100%;
-    margin-top: -3.2rem;
+    margin-top: -3rem;
     background-color: #ffffff;
     border: none;
 }
@@ -157,8 +157,8 @@
     width:  14px; /* Adjust the width as needed */
     height: auto; /* Keep the aspect ratio */
     position: relative;
-    left: 7.9rem;
-    bottom:2.8rem;
+    left: 4rem;
+    bottom:0.7rem;
 }
 
 .card-body .card-title {
@@ -201,8 +201,8 @@
 
 .card-footer .product-weight {
     position: relative;
-    top: 0.6rem;
-    left: 0.15rem; 
+    top: 1.5rem;
+    left: 5.2rem; 
     font-family: inter;
     font-weight: 300;
     color: #828282;
