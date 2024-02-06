@@ -81,7 +81,7 @@
 }
 
  .main-content .categories {
-    
+    margin-bottom: -2rem;
 } 
 
 .main-content .categories ul li{
@@ -108,13 +108,14 @@
    margin-bottom: 2rem; */
 
    position: relative;
-   padding: 1rem 0.8rem  !important;
+   padding: 0.9rem 0.7rem  !important;
    font-family: inter;
    font-weight: 600;
    width: 12rem;
    margin-left: 66.7rem;
    margin-top: -8.7rem;
-   border-radius: 2.2rem;
+   border-radius: 1.3rem;
+   background-color: var(--theme-color) !important;
 } 
 
 .products .card-prod {
