@@ -61,6 +61,7 @@ nav {
     position: relative;
     left: 3rem;
     z-index: 1;
+    width: 2.5rem;
 
 }
 
@@ -69,6 +70,7 @@ nav {
     position: relative;
     right: 3rem;
     z-index: 1;
+    width: 2.5rem;
 }
 
  /* .search-form {
