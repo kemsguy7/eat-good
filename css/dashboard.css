@@ -25,9 +25,14 @@
 /* ... other styles ... */
 .navbar {
     position: relative;
-    background-color: #ffffff;
-   
+    background-color: #ffffff;   
 }
+
+nav {
+    background-color: #ffffff;
+}
+
+
 /* Style for the search bar */
 .navbar .d-flex {
     width:  100%;
